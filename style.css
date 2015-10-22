@@ -1,13 +1,27 @@
 /*
 Theme Name: braincancer
 Theme URI: http://
-Description: A custom theme. 
+Description: A custom theme for BranCancer.org. 
+
+Plugins used: 
+	Akismet Plugin - http://akismet.com/
+		This plugin is used where ever comments are provided on the site
+		to maintain security by checking URLs and to prevent spam.
+		
+	New Royal Slider Plugin - http://dimsemenov.com/plugins/royal-slider/wordpress/
+		This plugin provides the slider used on the home page.
+		
+	All-in-One Event Calendar - http://time.ly/
+		This is a calendar plugin. (This plugin is currently not active and may be
+		substituted or not used at all)
+
 Author: 
 Author URI: http://
 Version: 1.0
 Tags:
 License:
 License URI:
+
 General comments: populated only for example
 */
 /*                 */
