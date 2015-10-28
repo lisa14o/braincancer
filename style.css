@@ -117,13 +117,13 @@ img{
 }
 
 hgroup{
-	background: #DFF;
 	background-image: url("");
 	background-position: left;
 	background-repeat: no-repeat;
 	background-size: 40%;
-	border: 2px solid #030;
+	background: papayawhip;
 	border-radius: 8px;
+	border: 2px solid #030;
 	font-family: Georgia, serif;
 	margin-top: 20px;
 	padding: 0 15px;
