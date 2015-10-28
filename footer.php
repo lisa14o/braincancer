@@ -1,5 +1,5 @@
 <div id="footer">
-
+<!--best comment ever-->
 <?php
 	$footer_nav = array(
 	'theme_location' => 'footer-nav',
