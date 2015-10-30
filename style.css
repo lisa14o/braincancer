@@ -49,34 +49,41 @@ Tags:
 License:
 License URI:
 
-General comments: populated only for example
+
 */
-/*                 */
-/*********************Body, global, and background******************/
+/* 
+ * NOTE:
+ * All the following code is for normal display. Our only media query is at 768px and below.
+   That media query is past the footer of this main CSS and displays only the code that 
+   changes from the main CSS. The changes overwrite this code since it is called farther down the line.
+   The page is also responsive when width is less then the max width down to the first media call.  */
+  
+   
+  
+/************* Body, global, and background / defaults if not a separate class or ID ************/
 html{
 	background: #FFF;
-	background-image: url("");
-	background-repeat: repeat;
 	}
 
-body{
+body{/********** Overall page properties and width *********/
 	background: #FFF;
-	border: #000 5px solid;
-	border-radius: 10px;
-	color: #030;
+	border: #000 1px solid;
+	color: #000;
 	display: block;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	margin: 30px auto;
-	max-width: 980px;
+	margin: 20px auto;
+	max-width: 1024px;
 	padding: 20px 4%;
 	}
 
 h1, h2, h3{
-	color: #030;
+	color: #000;
 	font-family: Georgia, serif;
 	font-weight: normal;
 	text-decoration: none;
 }
+
+/*********** Header group code  **************/
 
 hgroup h1{
 	font-size: 2.5em;
@@ -89,7 +96,7 @@ hgroup h2{
 }
 
 h1 a, h2 a, hgroup h1 a {
-	color: #060;
+	color: #000;
 	font-weight: normal;
 	text-decoration: none;
 }
@@ -99,13 +106,16 @@ h1 a:hover, h2 a:hover,h3 a:hover, hgroup h1 a:hover{
 	text-shadow: 0px 0px 2px #6FF;
 }
 
+
+/********** This is just for the search form submit button  */
+
 #searchform input#submit:hover{
-	color: #00F;
+	color: #000;
 	text-shadow: 0px 0px 2px #6FF;
 }
 
 hr{
-	border-color: #030;
+	border-color: #000;
 }
 
 img{
@@ -117,12 +127,10 @@ img{
 }
 
 hgroup{
-	background: #DFF;
-	background-image: url("");
-	background-position: left;
-	background-repeat: no-repeat;
+	background: #FFF;
+	
 	background-size: 40%;
-	border: 2px solid #030;
+	border: 1px solid #030;
 	border-radius: 8px;
 	font-family: Georgia, serif;
 	margin-top: 20px;
@@ -132,7 +140,7 @@ hgroup{
 
 /**************Main Nav with dropdown****************************/
 #mainnav ul {
-	border-bottom: 2px solid #030;
+	border-bottom: 1px solid #000;
 	display: inline-block;
 	text-align: left;
 	width: 95%;
@@ -177,7 +185,7 @@ hgroup{
 }
 
 #mainnav li ul li a {
-	background: #DFF;
+	background: #FFF;
 	border-bottom: 1px solid #030;
 	display: block;
 	font-size: 1em;
@@ -188,7 +196,7 @@ hgroup{
 
 #mainnav li ul li a:hover {
 	background: #cee;
-	color: #00F;
+	color: #000;
 	text-shadow: 0px 0px 2px #6FF;
 }
 
@@ -200,12 +208,12 @@ hgroup{
 	visibility: visible;
 } 
 
-nav.breadcrumb a{ /************Breadcrumb nav*********/
+nav.breadcrumb a{ /************Breadcrumb nav if used*********/
 	text-decoration: none;
 	color: #030;
 }
 
-nav.breadcrumb a:hover{ /************Breadcrumb nav*********/
+nav.breadcrumb a:hover{ /************Breadcrumb nav if used*********/
 	color: #00F;
 	text-shadow: 0px 0px 2px #6FF;
 }
@@ -232,7 +240,7 @@ nav.breadcrumb a:hover{ /************Breadcrumb nav*********/
 
 #content ul a, #content .comments a{
 	font-weight: normal;
-	color: #060;
+	color: #000;
 	text-decoration: none;
 }
 
@@ -246,12 +254,12 @@ nav.breadcrumb a:hover{ /************Breadcrumb nav*********/
 
 
 #content ul a:hover, #content .comments a:hover{
-	color: #00F;
+	color: #000;
 	text-shadow: 0px 0px 2px #6FF;
 }
 
 .block{/*******A content class designed for contacts*/
-	border-top: 2px solid #030;
+	border-top: 1px solid #000;
 	clear: left;
 	display: block;
 	float: left;
@@ -273,16 +281,16 @@ nav.breadcrumb a:hover{ /************Breadcrumb nav*********/
 }
 
 #content a:hover{
-	color: #00F;
+	color: #000;
 	text-shadow: 0px 0px 2px #6FF;
 }
 
 #content .postnav a{
 	background-image: url("images/");
 	background-repeat: repeat-x;
-	border: #030 1px solid;
+	border: #000 1px solid;
 	border-radius: 5px;
-	color: #030;
+	color: #000;
 	margin: 0 10px;
 	padding: 0 5px;
 	text-decoration: none;
@@ -296,7 +304,7 @@ nav.breadcrumb a:hover{ /************Breadcrumb nav*********/
 }
 
 #content .author{
-	background: #DFF;
+	background: #FFF;
 	background-image: url("images/");
 	background-position: right;
 	background-repeat:no-repeat;
@@ -315,6 +323,8 @@ nav.breadcrumb a:hover{ /************Breadcrumb nav*********/
 	height: inherit;
 	width: 100%;
 }
+
+/**************** Sidebar Code for when a sidebar page is used ****************/
 
 #sidebar{
 	display: block;
@@ -349,15 +359,11 @@ nav.breadcrumb a:hover{ /************Breadcrumb nav*********/
 
 /*************************footer***************************/
 #footer{
-	background: #DFF;
-	background-image: url("images/");
-	background-position: left;
-	background-repeat:no-repeat;
-	background-size: 25%;
-	border: 2px solid #030;
-	border-radius: 8px;
+	background: #FFF;
+	border: 1px solid #000;
+	
 	clear: both;
-	height: 80px;
+	height: 120px;
 	margin-bottom: 10px;
 	margin-left: -11px;
 	padding: 10px;
@@ -369,12 +375,12 @@ nav.breadcrumb a:hover{ /************Breadcrumb nav*********/
 	font-size: .9em;
 }
 
-#footer a{
+#footer a{/******* For buttons in the footer to be adjusted as needed ********/
 	background-image: url("images/");
 	background-repeat: repeat-x;
-	border: #030 1px solid;
+	border: #000 1px solid;
 	border-radius: 5px;
-	color: #030;
+	color: #060;
 	float: right;
 	padding: 0 5px;
 	text-decoration: none;
@@ -387,3 +393,21 @@ nav.breadcrumb a:hover{ /************Breadcrumb nav*********/
 	color: #00F;
 	text-shadow: 0px 0px 2px #6FF; 
 	}
+	
+
+/*********************** Media query for 768 pixels and below ****************/
+
+@media  screen and (max-width: 768px){/***** All code changes go in these brackets *****/
+	
+body{/********** page properties at 768px and below *********/
+	background: #FFF;
+	border: #000 1px solid;
+	color: #000;
+	display: block;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 10px auto;
+	max-width: 768px;
+	padding: 5px 4%;
+	}	
+	
+}
