@@ -13,9 +13,7 @@
 </head>
 <body>
 	<hgroup>
-    	<h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
-        <h2><?php bloginfo('description'); ?></h2>
-		<div id="donate"> Donate </div> <!-- This will be our donate button crafted by CSS (currently residing in hgroup) -->
+    		<div id="donate"> Donate </div> <!-- This will be our donate button crafted by CSS (currently residing in hgroup) -->
     </hgroup>
    
     <div id="mainnav">

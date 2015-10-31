@@ -33,10 +33,5 @@
 </div><!-- #content -->   
 </div><!-- #primary -->
 
-<div id="sidebar">
-<?php get_sidebar(right); ?> 
-</div><!-- #sidebar -->
-
-
 
 <?php get_footer(); ?>

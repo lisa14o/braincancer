@@ -1,5 +1,5 @@
 <?php get_header();?>
-	
+	<!-----------------This is for displaying a single post------------------->
     <div class="clear"></div>
     
     <div id="primary" class="site-content">
@@ -36,7 +36,8 @@
        <?php the_post_thumbnail(); ?>
        
     	<ul class="postnav">
-        	<?php previous_post_link("<li>%link", "&lt; Previous Post"); ?> 					     		<?php next_post_link("%link</li>", "  Next Post &gt;  "); ?>
+        	<?php previous_post_link("<li>%link", "&lt; Previous Post"); ?> 					     		
+			<?php next_post_link("%link</li>", "  Next Post &gt;  "); ?>
         </ul>
     	
     
@@ -52,10 +53,6 @@
    
 </div><!-- #content -->   
 </div><!-- #primary -->
-
-<div id="sidebar">
-<?php get_sidebar("right"); ?> 
-</div><!-- #sidebar -->
 
 
 

@@ -1,7 +1,7 @@
 <?php
 /*
 Template Name: Full Width
-This is a utility page for content that will take up the whole page. It will be an available choice.
+This is a utility page with basic loops and no sidebar. It will be an available choice.
 */
 
 get_header();?>

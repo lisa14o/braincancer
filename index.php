@@ -5,10 +5,7 @@
     
     <div id="primary" class="site-content">
     
-    <div id="slider">
-    <!--slider code here if used -->
-    </div><!--slider-->
-    
+        
     <div id="content">
     
     <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
@@ -42,10 +39,6 @@ previous_posts_link( 'Newer Posts' ); ?>
    
 </div><!-- #content -->   
 </div><!-- #primary -->
-
-<div id="sidebar">
-<?php get_sidebar(right); ?> 
-</div><!-- #sidebar -->
 
 
 
