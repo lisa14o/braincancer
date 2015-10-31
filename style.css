@@ -86,6 +86,16 @@ h1, h2, h3{
 
 /*********** Header group code  **************/
 
+.hgroup #donate a{     /******* For our Donate button in the header ********/
+	border: #000 1px solid;
+	border-radius: 5px;
+	color: #060;
+	float: right;
+	padding: 0 5px;
+	text-decoration: none;
+	margin:10px 2px;
+}
+
 hgroup h1{
 	font-size: 2.5em;
 	visibility:hidden;
