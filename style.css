@@ -8,6 +8,7 @@ Plugins used:
 		This plugin is used where ever comments are provided on the site
 		to maintain security by checking URLs and to prevent spam.
 		
+
 	New Royal Slider Plugin - http://dimsemenov.com/plugins/royal-slider/wordpress/
 		This plugin provides the slider used on the home page.
 		
@@ -15,6 +16,7 @@ Plugins used:
 		This is a calendar plugin. (This plugin is currently not active and may be
 		substituted or not used at all)
 		
+
 	Add Meta Tags - http://www.g-loaded.eu/2006/01/05/add-meta-tags-wordpress-plugin/
 		This plugin adds XHTML meta tags for better SEO.
 		
@@ -50,7 +52,6 @@ License:
 License URI:
 
 
-*/
 /* 
  * NOTE:
  * All the following code is for normal display. Our only media query is at 768px and below.
@@ -128,10 +129,15 @@ img{
 
 hgroup{
 	background: #FFF;
-	
 	background-size: 40%;
 	border: 1px solid #030;
+	background-image: url("");
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background: papayawhip;
 	border-radius: 8px;
+	border: 2px solid #030;
 	font-family: Georgia, serif;
 	margin-top: 20px;
 	padding: 0 15px;
@@ -375,7 +381,7 @@ nav.breadcrumb a:hover{ /************Breadcrumb nav if used*********/
 	font-size: .9em;
 }
 
-#footer a{/******* For buttons in the footer to be adjusted as needed ********/
+#footer a{     /******* For buttons in the footer to be adjusted as needed ********/
 	background-image: url("images/");
 	background-repeat: repeat-x;
 	border: #000 1px solid;
@@ -393,6 +399,7 @@ nav.breadcrumb a:hover{ /************Breadcrumb nav if used*********/
 	color: #00F;
 	text-shadow: 0px 0px 2px #6FF; 
 	}
+
 	
 
 /*********************** Media query for 768 pixels and below ****************/
@@ -411,3 +418,4 @@ body{/********** page properties at 768px and below *********/
 	}	
 	
 }
+
