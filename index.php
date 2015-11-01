@@ -23,7 +23,7 @@
     	by <?php the_author(); ?>
     	<?php comments_number("0 comments", "1 comment", "% comments"); ?>
 		</small></p>    
-	<br /><hr /><br />	
+	
     
 	
 	<?php endwhile; else: ?>

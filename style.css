@@ -74,17 +74,24 @@ body{/********** Overall page properties and width *********/
 
 hgroup{
 	background: #FFF;
+	height: 150px;
 	
 	} 
 
 hgroup a{     /******* For our Donate button in the header ********/
 	border: #000 1px solid;
 	border-radius: 5px;
-	color: #060;
+	color: #000;
 	float: right;
 	text-decoration: none;
 	margin-right: 20px;
 }
+
+hgroup a:hover{
+	color: #000;
+	background: #EEE;
+}
+
 hgroup #donate a{
 	padding: 3px 5px;
 	margin-top:50px;
@@ -102,6 +109,7 @@ hgroup #search a{
 
 #mainnav{
 	clear:both;
+	border-bottom: 1px solid #000;
 	
 }
 
@@ -115,10 +123,11 @@ hgroup #search a{
 	display: inline-block;
 	position: relative;
 	text-decoration:none;
+	color:#000;
 }
 
 #mainnav li a:hover{
-	color: #EEE;
+	color: #444;
 }
 
 
@@ -127,6 +136,11 @@ hgroup #search a{
 #content{
 	display: block;
 	float: left;
+	padding: 50px 80px;
+}
+
+#content h1 a, h2 a{
+	text-decoration:none;
 }
 
 
@@ -137,19 +151,26 @@ hgroup #search a{
 /*************************footer***************************/
 #footer{
 	background: #FFF;
-	border: 1px solid #000;
+	border-top: 1px solid #000;
 	clear: both;
 	height: 100px;
+	padding-left: 20px;
 }
 	
 #footer a{     /******* For buttons in the footer to be adjusted as needed ********/
 	border: #000 1px solid;
 	border-radius: 5px;
 	color: #000;
+	text-decoration:none;
+	display:block;
+	float:right;
+	padding:2px 5px;
+	margin-right:20px;
 }
 
 #footer a:hover{
-	color: #EEE;
+	color: #000;
+	background: #EEE;
 }
 
 	
