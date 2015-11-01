@@ -110,7 +110,6 @@ hgroup #search a{
 #mainnav{
 	clear:both;
 	border-bottom: 1px solid #000;
-	
 }
 
 
@@ -186,8 +185,32 @@ body{/********** page properties at 768px and below *********/
 	color: #000;
 	display: block;
 	max-width: 768px;
+}
+
+#mainnav{/********** Nav properties at 768px and below *********/
+	clear:both;
+}
+
+#mainnav ul {
+	display: block;
+	clear:both;
+	text-align: center;
+	margin:5px 0;
+}
+
+#mainnav ul li{
+	display: block;
+	clear:both;
+	text-align: center;
+	border-top: 1px solid #000;
+	padding:5px 0;
+}
+
+#content{/********** content properties at 768px and below *********/
+	display: block;
+	float: left;
+	padding: 10px 30px;
 }	
-	
 }
 
 
