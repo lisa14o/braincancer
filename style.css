@@ -66,30 +66,47 @@ body{/********** Overall page properties and width *********/
 	display: block;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	max-width: 1024px;
+	margin: 10px auto;
 	}
 
 
 /*********** Header group code  **************/
 
-.hgroup #donate a{     /******* For our Donate button in the header ********/
+hgroup{
+	background: #FFF;
+	
+	} 
+
+hgroup a{     /******* For our Donate button in the header ********/
 	border: #000 1px solid;
 	border-radius: 5px;
 	color: #060;
 	float: right;
-	padding: 0 5px;
 	text-decoration: none;
-	margin:10px 2px;
+	margin-right: 20px;
+}
+hgroup #donate a{
+	padding: 3px 5px;
+	margin-top:50px;
+}
+	
+hgroup #search a{
+	padding: 1px 50px;
+	margin-top:20px;
+	clear: right;
 }
 
 
-hgroup{
-	background: #FFF;
-	border: 1px solid #030;
-	} 
 
 /**************Main Nav**************************************/
+
+#mainnav{
+	clear:both;
+	
+}
+
+
 #mainnav ul {
-	border: 1px solid #000;
 	display: inline-block;
 	text-align: left;
 }
@@ -97,6 +114,7 @@ hgroup{
 #mainnav li a, #mainnav li {
 	display: inline-block;
 	position: relative;
+	text-decoration:none;
 }
 
 #mainnav li a:hover{

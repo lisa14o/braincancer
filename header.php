@@ -13,7 +13,7 @@
 </head>
 <body>
 	<hgroup>
-    		<div id="donate"><a href=""> Donate </div></a><!-- our donate button-->
+    		<div id="donate"><a href=""><b> Donate </b> </div></a><!-- our donate button-->
             <div id="search"><a href="#search-container" class="screen-reader-text">Search</a></div><!-- our search button-->
     </hgroup>
    
