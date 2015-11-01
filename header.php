@@ -13,7 +13,8 @@
 </head>
 <body>
 	<hgroup>
-    		<div id="donate"> Donate </div> <!-- This will be our donate button crafted by CSS (currently residing in hgroup) -->
+    		<div id="donate"><a href=""> Donate </div></a><!-- our donate button-->
+            <div id="search"><a href="#search-container" class="screen-reader-text">Search</a></div><!-- our search button-->
     </hgroup>
    
     <div id="mainnav">
