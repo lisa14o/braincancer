@@ -74,9 +74,20 @@ body{/********** Overall page properties and width *********/
 
 hgroup{
 	background: #FFF;
+	background-image:url(images/logoplaceholder.png);
+	background-repeat:no-repeat;
+	background-size:100px;
+	background-position:50% 50%;
 	height: 150px;
-	
-	} 
+} 
+
+hgroup #logo{
+	margin: 5px 50%;
+	}
+
+hgroup #logo img{
+	height:60px;
+}
 
 hgroup a{     /******* For our Donate button in the header ********/
 	border: #000 1px solid;
@@ -94,7 +105,8 @@ hgroup a:hover{
 
 hgroup #donate a{
 	padding: 3px 14px;
-	margin-top:50px;}
+	margin-top:50px;
+}
 	
 hgroup #search a{
 	padding: 0 85px 3px 20px;

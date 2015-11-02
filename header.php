@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
     <title><?php the_title(); ?></title>
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-<link rel="shortcut icon" href= "" type="image/png">
+
 
     <!--[if lt IE 9]>
     	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
