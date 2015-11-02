@@ -93,16 +93,18 @@ hgroup a:hover{
 }
 
 hgroup #donate a{
-	padding: 3px 5px;
-	margin-top:50px;
-}
+	padding: 3px 14px;
+	margin-top:50px;}
 	
 hgroup #search a{
-	padding: 1px 50px;
-	margin-top:20px;
+	padding: 0 85px 3px 20px;
+	margin-top:15px;
 	clear: right;
+	text-align:left;
+	background-image:url("images/search1.png");
+	background-repeat:no-repeat;
+	background-position:0% 50%;
 }
-
 
 
 /**************Main Nav**************************************/
