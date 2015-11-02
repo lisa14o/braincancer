@@ -123,6 +123,7 @@ hgroup #search a{
 	position: relative;
 	text-decoration:none;
 	color:#000;
+	margin:0 6px;
 }
 
 #mainnav li a:hover{
@@ -195,7 +196,8 @@ body{/********** page properties at 768px and below *********/
 	display: block;
 	clear:both;
 	text-align: center;
-	margin:5px 0;
+	margin:5px 0 5px -40px;
+	list-style: none; 
 }
 
 #mainnav ul li{
@@ -203,7 +205,8 @@ body{/********** page properties at 768px and below *********/
 	clear:both;
 	text-align: center;
 	border-top: 1px solid #000;
-	padding:5px 0;
+	padding:7px 0;
+	list-style: none; 
 }
 
 #content{/********** content properties at 768px and below *********/
