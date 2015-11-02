@@ -128,16 +128,19 @@ hgroup #search a{
 
 
 #mainnav ul {
-	display: inline-block;
-	text-align: left;
+	display: block;
+	margin:1% 0 1% 1.25%;
 }
 
 #mainnav li a, #mainnav li {
 	display: inline-block;
 	position: relative;
 	text-decoration:none;
+	text-align:left;
 	color:#000;
-	margin:0 6px;
+	margin-bottom:7px;
+	margin-right:4.3%;
+	font-size:1em;
 }
 
 #mainnav li a:hover{

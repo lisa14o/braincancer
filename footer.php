@@ -2,7 +2,7 @@
 <!--best comment everrrrrrr-->
 
 <p>Footer Area to be defined</p>
-<a href="">Test Button</a>
+<a href="wp-login.php">Log In</a>
 <?php
 	$footer_nav = array(
 	'theme_location' => 'footer-nav',
