@@ -108,15 +108,19 @@ hgroup #donate a{
 	margin-top:50px;
 }
 	
-hgroup #search a{
-	padding: 0 85px 3px 20px;
-	margin-top:15px;
+hgroup form{
+	border: #000 1px solid;
+	border-radius: 5px;
+	margin:15px 20px 0 20px;
+	padding-left:20px;
+	float:right;
 	clear: right;
 	text-align:left;
 	background-image:url("images/search1.png");
 	background-repeat:no-repeat;
 	background-position:0% 50%;
 }
+
 
 
 /**************Main Nav**************************************/

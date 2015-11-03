@@ -14,7 +14,13 @@
 <body>
 	<hgroup>
     		<div id="donate"><a href=""><b> Donate </b> </div></a><!-- our donate button-->
-            <div id="search"><a href=""><small>SEARCH</small></a></div><!-- our search button-->
+            
+            <form role="search" method="get" id="searchform" class="searchform" action="<?php bloginfo('home'); ?>/">
+				<div>
+					<label class="screen-reader-text" for="s"></label>
+					<input type="text" value="" name="s" id="s" />
+				</div>
+			</form><!-- our search button-->
             
     </hgroup>
    
