@@ -12,22 +12,15 @@
 <?php wp_head(); ?>
 </head>
 <body>
-<<<<<<< HEAD
+
 	<hgroup>
-    		<div id="donate"><a href=""><b> Donate </b> </div></a><!-- our donate button-->
-            
-            <form role="search" method="get" id="searchform" class="searchform" action="<?php bloginfo('home'); ?>/">
+			<form role="search" method="get" id="searchform" class="searchform" action="<?php bloginfo('home'); ?>/"><!-- our search button-->
 				<div>
 					<label class="screen-reader-text" for="s"></label>
 					<input type="text" value="" name="s" id="s" />
 				</div>
-			</form><!-- our search button-->
-=======
-    <hgroup>
-            <div id="donate"><a href=""><b> Donate </b> </div></a><!-- our donate button-->
-            <div id="search"><a href=""><small>SEARCH</small></a></div><!-- our search button-->
->>>>>>> origin/master
-            
+			</form>
+    		<div id="donate"><a href=""><b> Donate </b> </div></a><!-- our donate button-->
     </hgroup>
    
     <div id="mainnav">

@@ -21,9 +21,8 @@
     
     <?php endif; ?>
     
-    <?php if( get_the_excerpt() ){ ?>
-        <h3 class="tagline"><?php echo get_the_excerpt(); ?></h3>
-    <?php } ?>
+   
+   
    
   
    

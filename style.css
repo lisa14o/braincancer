@@ -9,7 +9,7 @@ Plugins used:
 		to maintain security by checking URLs and to prevent spam.
 		
 
-	New Royal Slider Plugin - http://dimsemenov.com/plugins/royal-slider/wordpress/
+	Meteor Slides - http://jleuze.com/plugins/meteor-slides/
 		This plugin provides the slider used on the home page.
 		
 	All-in-One Event Calendar - http://time.ly/
@@ -74,7 +74,7 @@ body{/********** Overall page properties and width *********/
 
 hgroup{
 	background: #FFF;
-	background-image:url(images/logoplaceholder.png);
+	background-image:url(images/logo.jpg);
 	background-repeat:no-repeat;
 	background-size:100px;
 	background-position:50% 50%;
@@ -105,13 +105,15 @@ hgroup a:hover{
 
 hgroup #donate a{
 	padding: 3px 14px;
-	margin-top:50px;
+	margin-top:10px;
+	float:right;
+	clear: right;
 }
 	
 hgroup form{
 	border: #000 1px solid;
 	border-radius: 5px;
-	margin:15px 20px 0 20px;
+	margin:20px 20px 0 20px;
 	padding-left:20px;
 	float:right;
 	clear: right;
@@ -136,7 +138,7 @@ hgroup form{
 	text-decoration:none;
 	text-align:left;
 	color:#000;
-	margin:5px 2.5%;
+	margin:5px 2.4%;
 	font-size:1em;
 }
 
@@ -146,6 +148,15 @@ hgroup form{
 
 
 /********************Main Content*********************/
+.centertext{
+	text-align:center;
+}
+
+#texthighlight{
+	width:75%;
+	margin: 1% auto;
+	padding:3%;
+}
 
 #content{
 	display: block;
@@ -156,6 +167,31 @@ hgroup form{
 #content h1 a, h2 a{
 	text-decoration:none;
 	color:#000;
+}
+
+#content img{
+	width:35%;
+	height:auto;
+	padding:2%;
+}
+	
+
+#oneofthree{
+	max-width:33%;
+	float:left;
+	padding-right:20px;
+}
+
+#twoofthree{
+	max-width:33%;
+	float:left;
+	padding-right:20px;
+}
+
+#threeofthree{
+	max-width:33%;
+	float:left;
+	padding-right:20px;
 }
 
 
