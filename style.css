@@ -113,7 +113,12 @@ hgroup #donate a{
 hgroup form{
 	border: #000 1px solid;
 	border-radius: 5px;
+<<<<<<< Updated upstream
 	margin:20px 20px 0 20px;
+=======
+	margin:15px 20px 0 20px;
+	margin-top:20px;
+>>>>>>> Stashed changes
 	padding-left:20px;
 	float:right;
 	clear: right;
@@ -158,10 +163,26 @@ hgroup form{
 	padding:3%;
 }
 
+.centertext{
+	text-align:center;
+}
+
+#content #texthighlight{
+	width:70%;
+	margin: 6% auto;
+}
+	
+
 #content{
 	display: block;
 	float: left;
 	padding: 50px 80px;
+}
+
+#content img{
+	width:45%;
+	height:auto;
+	padding-right: 3%;
 }
 
 #content h1 a, h2 a{
@@ -169,6 +190,7 @@ hgroup form{
 	color:#000;
 }
 
+<<<<<<< Updated upstream
 #content img{
 	width:35%;
 	height:auto;
@@ -194,6 +216,13 @@ hgroup form{
 	padding-right:20px;
 }
 
+=======
+#content .threecol{
+	float:left;
+	width: 33%;
+	padding-right:3%;
+}
+>>>>>>> Stashed changes
 
 /**************** Sidebar Code for when a sidebar page is used ****************/
 
