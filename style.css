@@ -113,12 +113,9 @@ hgroup #donate a{
 hgroup form{
 	border: #000 1px solid;
 	border-radius: 5px;
-<<<<<<< Updated upstream
 	margin:20px 20px 0 20px;
-=======
 	margin:15px 20px 0 20px;
 	margin-top:20px;
->>>>>>> Stashed changes
 	padding-left:20px;
 	float:right;
 	clear: right;
@@ -216,13 +213,13 @@ hgroup form{
 	padding-right:20px;
 }
 
-=======
+
 #content .threecol{
 	float:left;
 	width: 33%;
 	padding-right:3%;
 }
->>>>>>> Stashed changes
+
 
 /**************** Sidebar Code for when a sidebar page is used ****************/
 
