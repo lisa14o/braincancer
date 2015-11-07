@@ -14,8 +14,7 @@
 <body>
 
 	<hgroup>
-
-			
+	
             <form role="search" method="get" id="searchform" class="searchform" action="<?php bloginfo('home'); ?>/"><!-- our search button-->
 
 				<div>
@@ -25,10 +24,6 @@
 			</form>
 
     		<div id="donate"><a href=""><b> Donate </b> </div></a><!-- our donate button-->
-
-          
-
-            
 
     </hgroup>
    
