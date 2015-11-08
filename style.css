@@ -89,40 +89,62 @@ hgroup #logo img{
 	height:60px;
 }
 
-hgroup a{     /******* For our Donate button in the header ********/
-	border: #000 1px solid;
-	border-radius: 5px;
-	color: #000;
-	float: right;
-	text-decoration: none;
-	margin-right: 20px;
-}
-
 hgroup a:hover{
 	color: #000;
 	background: #EEE;
 }
 
 hgroup #donate a{
+	border: #000 1px solid;
+	border-radius: 5px;
 	padding: 3px 14px;
 	margin-top:10px;
+	text-decoration: none;
+	color: #000;
+	margin-right: 20px;
 	float:right;
 	clear: right;
 }
 	
-hgroup form{
+hgroup #searchform{
 	border: #000 1px solid;
 	border-radius: 5px;
 	margin:20px 20px 0 20px;
 	margin:15px 20px 0 20px;
-	margin-top:20px;
+	margin-top:5px;
 	padding-left:20px;
+	display: inline-block;
 	float:right;
-	clear: right;
 	text-align:left;
 	background-image:url("images/search1.png");
 	background-repeat:no-repeat;
 	background-position:0% 50%;
+}
+
+hgroup #searchform a{     /******* For our Donate button in the header ********/
+	border: #000 1px solid;
+	border-radius: 5px;
+	display: inline-block;
+	color: #000;
+	text-decoration: none;
+	margin-right: 20px;
+	float:right;
+	
+}
+
+hgroup .socialitems li{
+	border: #000 1px solid;
+	margin-top:5px;
+	padding:2px 8px;
+	display: inline-block;
+	float:left;
+	margin-right:5px;
+	text-decoration: none;
+}
+
+hgroup .socialitems a{
+	text-decoration: none;
+	color: #000;
 }
 
 
@@ -220,25 +242,74 @@ hgroup form{
 	background: #FFF;
 	border-top: 1px solid #000;
 	clear: both;
-	height: 100px;
+	height: 160px;
 	padding-left: 20px;
 }
 	
-#footer a{     /******* For buttons in the footer to be adjusted as needed ********/
+#footer #login{ 
 	border: #000 1px solid;
-	border-radius: 5px;
 	color: #000;
 	text-decoration:none;
 	display:block;
 	float:right;
 	padding:2px 5px;
-	margin-right:20px;
+	margin:10px 20px;
 }
 
 #footer a:hover{
 	color: #000;
 	background: #EEE;
 }
+
+#footer .socialitems{
+	display:block;
+	margin: 0 40%
+}
+
+#footer .socialitems li{
+	border: #000 1px solid;
+	margin: 25px auto;
+	padding:2px 8px;
+	display: inline-block;
+	float:left;
+	margin-right:5px;
+	text-decoration: none;
+}
+
+#footer .socialitems a{
+	text-decoration: none;
+	color: #000;
+}
+ #footer #tagline{
+	 display:inline-block;
+	 text-align:center;
+	 font-size:.85em;
+	 margin: 0 20%
+ }
+ 
+ /**************Footer Nav**************************************/
+
+#footernav{
+	clear:both;
+	margin: 0 9%;
+}
+
+#footernav li a, #footernav li {
+	display: inline-block;
+	position: relative;
+	text-decoration:none;
+	text-align:left;
+	color:#000;
+	margin:0 .2%;
+	font-size:.85em;
+	font-weight:bold;
+}
+
+#footernav li a:hover{
+	color: #444;
+}
+
+
 
 	
 
@@ -281,5 +352,4 @@ body{/********** page properties at 768px and below *********/
 	padding: 10px 30px;
 }	
 }
-
 
