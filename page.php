@@ -1,10 +1,6 @@
 <?php get_header();?>
-    
-    
-    <div class="clear"></div>
-    
-    <div id="primary" class="site-content">
-    <div id="content">
+   
+<div id="content">
    
     <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
     
@@ -23,7 +19,5 @@
     
 
 </div><!-- #content -->   
-</div><!-- #primary -->
-
 
 <?php get_footer(); ?>

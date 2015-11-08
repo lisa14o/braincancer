@@ -1,12 +1,7 @@
 <?php get_header();?>
 <!--sweet ass comment-->
-  
-  <div class="clear"></div>
-    
-    <div id="primary" class="site-content">
-    
-        
-    <div id="content">
+
+<div id="content">
     
     <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
     
@@ -34,12 +29,8 @@
 previous_posts_link( 'Newer Posts' ); ?> 
    <br /><br />
    
-   
-
-   
+  
 </div><!-- #content -->   
-</div><!-- #primary -->
-
 
 
 <?php get_footer(); ?>

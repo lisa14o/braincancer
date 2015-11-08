@@ -4,7 +4,9 @@ Template Name: Archives with Content
 */
 
 get_header(); ?>
-<div id="content" class="widecolumn">
+
+<div id="content">
+
     <?php if (have_posts()) : while (have_posts()) : the_post();?>
     <div class="post">
         <h2 id="post-<?php the_ID(); ?>"><?php the_title();?></h2>
@@ -26,4 +28,5 @@ get_header(); ?>
         <?php wp_list_categories(); ?>
     </ul>
 </div>
+
 <?php get_footer(); ?>

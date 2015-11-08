@@ -2,9 +2,8 @@
 
 get_header();?>
 
-<div class="clear"></div>
-<div id="primary" class="site-content">
-	<div id="content">
+<div id="content">
+	
 
 		<h1>404 error </h1>
 
@@ -22,8 +21,6 @@ get_header();?>
 		
 
 		
-	</div><!-- #content -->   
-</div><!-- #primary -->
-
+</div><!-- #content -->   
 
 <?php get_footer(); ?>

@@ -6,9 +6,7 @@ This is a utility page with basic loops and no sidebar. It will be an available 
 
 get_header();?>
 
-	
-    <div class="clear"></div>
-    <div id="whole">
+<div id="whole">
     
     
     

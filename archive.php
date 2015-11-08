@@ -2,9 +2,7 @@
 
 get_header();?>
 	
-    <div class="clear"></div>
-    <div id="primary" class="site-content">
-    <div id="content">
+<div id="content">
     <h2><?php
 	if (is_day()) _e('You are viewing the ' . get_the_date() . ' daily post archive');
 	elseif (is_month()) _e('You are viewing the ' . get_the_date('F Y') . ' post archive');
@@ -40,9 +38,7 @@ get_header();?>
    
 <br />  
    
-
-   
+ 
 </div><!-- #content -->   
-</div><!-- #primary -->
 
 <?php get_footer(); ?>

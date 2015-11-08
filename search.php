@@ -2,10 +2,7 @@
 
 get_header();?>
 	
-	    
-    <div class="clear"></div>
-    <div id="primary" class="site-content">
-    <div id="content">
+<div id="content">
     <h2><? _e( 'Search results for "' . get_search_query() . '"'); ?></h2>
     
     <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
@@ -39,6 +36,5 @@ get_header();?>
 
    
 </div><!-- #content -->   
-</div><!-- #primary -->
 
 <?php get_footer(); ?>
