@@ -170,6 +170,16 @@ hgroup form{
 }
 	
 
+.centertext{
+	text-align:center;
+}
+
+#content #texthighlight{
+	width:70%;
+	margin: 6% auto;
+}
+	
+
 #content{
 	display: block;
 	float: left;
@@ -188,18 +198,24 @@ hgroup form{
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #content img{
 	width:35%;
 	height:auto;
 	padding:2%;
 }
 
+=======
+>>>>>>> Stashed changes
 #content .threecol{
 	float:left;
 	width: 33%;
 	padding-right:3%;
 }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 
 /**************** Sidebar Code for when a sidebar page is used ****************/
 

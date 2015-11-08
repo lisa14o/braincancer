@@ -21,6 +21,11 @@
     
     <?php endif; ?>
     
+<<<<<<< Updated upstream
+=======
+    
+   
+>>>>>>> Stashed changes
   
 </div><!-- #content -->   
 </div><!-- #primary -->
