@@ -242,7 +242,7 @@ hgroup .socialitems a{
 	background: #FFF;
 	border-top: 1px solid #000;
 	clear: both;
-	height: 160px;
+	height: 180px;
 	padding-left: 20px;
 }
 	
@@ -350,6 +350,45 @@ body{/********** page properties at 768px and below *********/
 	display: block;
 	float: left;
 	padding: 10px 30px;
-}	
 }
 
+#content .threecol{
+	float:left;
+	width: 45%;
+	padding:10px;	
+}
+
+#footer{
+	background: #FFF;
+	border-top: 1px solid #000;
+	clear: both;
+	height: 200px;
+	padding-left: 10px;
+}
+
+#footer .socialitems{
+	display:block;
+	margin: 0 10%
+}
+/*********************** Media query for 480 pixels and below ****************/
+
+@media  screen and (max-width: 480px){/***** All code changes go in these brackets *****/
+
+#content .threecol{
+	float:left;
+	width: 100%;
+	padding:10px;	
+}
+
+#footer{
+	background: #FFF;
+	border-top: 1px solid #000;
+	clear: both;
+	height: 240px;
+	padding-left: 10px;
+}
+
+
+
+
+}
