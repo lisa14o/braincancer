@@ -172,6 +172,13 @@ hgroup .socialitems a{
 
 
 /********************Main Content*********************/
+
+#content hr{
+	display:block;
+	clear:both;
+	padding:0px;
+}
+
 .centertext{
 	text-align:center;
 }
@@ -196,6 +203,10 @@ hgroup .socialitems a{
 	text-align:center;
 }
 
+#content h2{
+	padding: 0 3%;
+}
+
 #content #texthighlight{
 	width:70%;
 	margin: 6% auto;
@@ -205,14 +216,10 @@ hgroup .socialitems a{
 #content{
 	display: block;
 	float: left;
-	padding: 50px 80px;
+	padding: 2% 0;
 }
 
-#content img{
-	width:45%;
-	height:auto;
-	padding-right: 3%;
-}
+
 
 #content h1 a, h2 a{
 	text-decoration:none;
@@ -220,16 +227,49 @@ hgroup .socialitems a{
 }
 
 #content img{
-	width:35%;
+	width:37%;
 	height:auto;
-	padding:2%;
+	padding:3%;
+}
+
+#content .cta img{
+		width:100%;
+		margin:0 1%;
 }
 
 
+#content .cta{
+	width:93%;
+	
+}
+
+#content .cta .twocol{
+	float:left;
+	width: 42%;
+	padding:0 0 3% 7%;
+	
+}
+
+#content .fullcol{
+	margin: 1% 6%;
+}
+
+#content .twocol{
+	float:left;
+	width: 45%;
+	padding:3%;
+	
+}
+
 #content .threecol{
 	float:left;
-	width: 33%;
-	padding-right:3%;
+	width: 28%;
+	padding:0 2.5%;
+}
+
+#content .threecol img{
+	width: 100%;
+	padding:0 1%;
 }
 
 
@@ -352,6 +392,10 @@ body{/********** page properties at 768px and below *********/
 	padding: 10px 30px;
 }
 
+#content .fullcol{
+	margin: 1% 1%;
+}
+
 #content .threecol{
 	float:left;
 	width: 45%;
@@ -372,9 +416,9 @@ body{/********** page properties at 768px and below *********/
 }
 /*********************** Media query for 480 pixels and below ****************/
 
-@media  screen and (max-width: 480px){/***** All code changes go in these brackets *****/
+@media  screen and (max-width: 480px){/***** only the 480 code changes go in these brackets *****/
 
-#content .threecol{
+#content .threecol, #content .twocol, #content .cta .twocol{
 	float:left;
 	width: 100%;
 	padding:10px;	
