@@ -151,8 +151,6 @@ header {
 	margin: 15px auto;
 	color: #F6EFD3;
 	font-size: 30px;
-	
-	
 }
 
 /*-------------------------------END BANNER------------------------------*/
@@ -200,7 +198,6 @@ header {
 
 /*----------------------------END INTRO CHUNK----------------------------*/
 
-/*------------------------------THREE ROWS-------------------------------*/
 
 main.blog_Article {
 	width: 68%;
@@ -221,15 +218,16 @@ p.excerpt {
 	text-align: center;
 }
 
+
+/*------------------------------THREE ROWS-------------------------------*/
+
+
 #three_Rows {
 	width: 30%;
 	background: #8D95A6;
 	margin-top: 0;
 	float: right;
-
 }
-
-
 
 .row {
 	width: 90%;
@@ -434,7 +432,7 @@ aside img {
 
 /*----------------------------END MAIN INFO-----------------------------*/
 
-/*-------------------------------RELATED--------------------------------*/
+/*---------------------------------COL3---------------------------------*/
 
 #col3 {
 	width: 100%;
@@ -493,7 +491,7 @@ aside img {
 	padding-left: 20px;
 }
 
-/*------------------------------END RELATED------------------------------*/
+/*-------------------------------END COL3--------------------------------*/
 
 /*--------------------------------FOOTER---------------------------------*/
 
@@ -505,8 +503,377 @@ footer {
 
 /*-------------------------------END FOOTER-------------------------------*/
 
+/*-------------------------------RESPONSIVE-------------------------------*/
 
 
+@media screen and (max-width: 768px) {
+
+	#wrapper {
+		width: 86%;
+		background: #D6DED3;
+		margin: 0 auto;
+	}
+
+	header {
+		background: blue;
+	}
+
+	#logo {
+		display: none;
+	}
+
+	#nav ul {
+		display: none;
+	}
+
+	.inner {
+		width: 100%;
+		clear: both;
+		margin: 0 auto;
+		border: 1px white solid;
+		overflow: hidden;
+	}
+
+	#description_Banner {
+		width: 100%;
+		height: auto;
+		margin: 0;
+		
+	}
+
+	#description_Banner h1 {
+		text-align: center;
+		padding-top: .4em;
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	#description_Banner p  {
+		text-align: center;
+		font-size: 20px;
+		width: 70%;
+		padding: 0 0 .4em 0;
+		margin: .5em auto;
+	}
+
+	p {
+		font-family: 'Quattrocento Sans', sans-serif;
+		padding: .5em;
+		line-height: 30px;
+		font-size: 20px;
+	}
+
+	/*-----------------------------SUBMENU BOXES-----------------------------*/
+
+	#submenu_Box {
+		width: 100%;
+		overflow: hidden;
+		margin-top: 0;
+	}
+
+	.box {
+		width: auto;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+
+	main.right {
+		width: 80%;
+		height: auto;
+		float: none;
+		margin: .5em auto;
+		border: none;
+	}
+
+	.box main p {
+		font-size: 15px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.box main h2{
+		text-align: center;
+		padding: 0 0 5px 0;
+		font-size: 30px;
+	}
+
+	aside.left {
+		width: 40%;
+		height: auto;
+		float: none;
+		margin: 1em auto;
+		border: none;	
+	}
+
+	aside img {
+		width: 100%;
+		height: 14em;
+		padding: 0;
+	}
+
+	main.left {
+		width: 80%;
+		height: auto;
+		float: none;
+		margin: .5em auto;
+		border: none;
+	}
+
+	.box main p {
+		font-size: 15px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.box main h2{
+		text-align: left;
+		padding: 0 0 5px 0;
+		color: #0A1C28; 
+		font-size: 30px;
+	}
+
+	aside.right {
+		width: 40%;
+		height: auto;
+		float: none;
+		margin: 1em auto;
+		border: none;
+	}
+
+
+/*--------------------------END SUBMENU BOXES----------------------------*/
+
+/*---------------------------------COL3---------------------------------*/
+
+	#col3 {
+		width: 100%;
+		background: #FA6155;
+		overflow: hidden;
+		margin-top: 0;
+	}
+
+	.col {
+		width: 100%;
+		height: 15em;
+		float: none;
+		padding: 1em;
+	}
+
+	.col img {
+		width: 30%;
+		margin: 0 ;
+		padding-top: 0;
+		display: block;
+		float: left;
+	}
+
+	.col p {
+		font-size: 16px;
+		line-height: 18px;
+		float: right;
+		width: 59%;
+		margin: .5em 2em 1em 0;
+		padding: 0;
+	}
+
+	.col h3 {
+		color: #0A1C28;
+		line-height: 18px;
+		padding: 0 0 .5em 0;
+		margin: 0;
+	}
+
+	.col h4 {
+		padding: 0 1.7em 0 0;
+		
+		font-size: 16px;
+		float: right;
+		width: 60%;
+		-webkit-margin-before: 0em;
+	    -webkit-margin-after: 0em;
+	    -webkit-margin-start: 0px;
+	    -webkit-margin-end: 0px;
+	}
+
+
+	.col_Middle {
+		width: 100%;
+		height: 15em;
+		float: none;
+		margin: .5em 0 .5em 0;
+		padding: 1em;
+	}
+
+	.col_Middle img {
+		width: 30%;
+		margin: 0 ;
+		padding-top: 0;
+		display: block;
+		float: left;
+	}
+
+	.col_Middle p {
+		font-size: 16px;
+		line-height: 18px;
+		float: right;
+		width: 59%;
+		margin: .5em 2em 1em 0;
+		padding: 0;
+	}
+
+	.col_Middle h3 {
+		color: #0A1C28;
+		line-height: 18px;
+		padding: .5em 0 .5em 0;
+		margin: 0;
+	}
+
+	.col_Middle h4 {
+		padding: 0 1.7em 0 0;
+		font-size: 16px;
+		float: right;
+		width: 60%;
+		-webkit-margin-before: 0em;
+	    -webkit-margin-after: 0em;
+	    -webkit-margin-start: 0px;
+	    -webkit-margin-end: 0px;
+	}
+/*-------------------------------END COL3--------------------------------*/
+
+/*-------------------------------INTRO CHUNK-----------------------------*/
+
+	#intro_Chunk {
+		width: 100%;
+		background: #71A7A2;
+		overflow: hidden;
+		padding-top: 0;
+	}
+
+	#intro_Chunk main {
+		width: 60%;
+		border: 1px white solid;
+		float: left;
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-left: 1em;
+		padding: .5em;
+	}
+
+	#intro_Chunk main h3 {
+		text-align: left;
+		padding: 0;
+	}
+
+	#intro_Chunk main p {
+		text-align: left;
+		padding-left: 0;
+	}
+
+	#intro_Chunk aside {
+		width: 30%;
+		border: 1px white solid;
+		float: right;
+		margin-top: 17px;
+		margin-right: 1em;
+	}
+
+	#slider {
+		display: none;
+	}
+
+/*----------------------------END INTRO CHUNK----------------------------*/
+
+
+/*-----------------------------BLOG ARTICLE------------------------------*/
+
+	main.blog_Article {
+		width: 100%;
+		float: left;
+		background: #71A7A2;
+	}
+
+	main.blog_Article img {
+		width: 100%;
+	}
+
+	main.blog_Article h4 {
+		text-align: center;
+	}
+
+	p.excerpt {
+		font-size: 25px;
+		text-align: center;
+		padding: .5em;
+	}
+
+/*---------------------------END BLOG ARTICLE----------------------------*/
+
+/*------------------------------THREE ROWS-------------------------------*/
+
+
+	#three_Rows {
+		width: 70%;
+		background: #8D95A6;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.row {
+		width: 100%;
+		background: #8D95A6;
+		clear: both;
+		margin: 20px auto;
+		border: 1px white solid;
+		overflow: hidden;
+	}
+
+	.row img {
+		width: 100%;	
+	}
+
+	.row p {
+		font-size: 13px;
+		line-height: 18px;
+		padding-left: 0;
+
+	}
+
+	.row h3 {
+		font-size: 18px;
+		line-height: 18px;
+		color: #0A1C28;
+		padding-top: 0;
+		padding-left: 0;
+	}
+
+	.row h5 {
+		font-size: 18px;
+		line-height: 18px;
+		color: #0A1C28;
+		padding-top: 10px;
+		padding-left: 0;
+	}
+
+	#social {
+		width: 100%;
+		height: 150px;
+		background: #71A7A2;
+		margin-top: 0;
+	}
+
+	.social_Box {
+		width: 8%;
+		height: 50px;
+		background: white;
+		margin: 40px 85px 40px 85px;
+		display: block;
+		float: left;
+	}
+
+/*--------------------------END FEATUED CONTENT--------------------------*/
+
+}
 
 
 
