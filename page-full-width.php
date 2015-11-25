@@ -6,6 +6,8 @@ This is a utility page with basic loops and no sidebar. It will be an available 
 
 get_header();?>
 
+<!----------page-full-width.php---------->
+
 <div id="whole">
     
     

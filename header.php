@@ -15,18 +15,13 @@
 
 	<hgroup>
             
-            <ul class="socialitems">
-            	<li id="twitter"><a href="https://twitter.com/nobraincancer">T</a></li>
-				<li id="facebook"><a href="https://www.facebook.com/braincancer.org">F</a></li>
-				<li id="pintrest"><a href="http://www.pinterest.com/braincancerorg/">P</a></li>
-			</ul>	
-            
+                       
             
             
             <form role="search" method="get" id="searchform" class="searchform" action="<?php bloginfo('home'); ?>/"><!-- our search button-->
 				<div>
 					<label class="screen-reader-text" for="s"></label>
-					<input type="text" value="" name="s" id="s" />
+					<input type="text" value="" name="s" id="s" placeholder="  Search" />
 				</div>
 			</form>
 

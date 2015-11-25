@@ -42,7 +42,14 @@ Plugins used:
 		It is amazingly handy and shows even robots from search engines that have 
 		visited your site.
 		
-	
+	Color Pellet: 	logo dark green 	#3a9142
+					logo light green	#b5d335
+					logo grey			#837e82
+					logo blue			#107b9f
+					
+					mint green			#3a9142
+					light blue			#2bb9e6
+					dark blue/grey		#373d4c
 
 
 /* 
@@ -56,7 +63,7 @@ Plugins used:
   
 /************* Body, global, and background / defaults if not a separate class or ID ************/
 html{
-	background: #FFF;
+	background: #EEE;
 	}
 *{
 	box-sizing: border-box;
@@ -64,7 +71,6 @@ html{
 
 body{/********** Overall page properties and width *********/
 	background: #FFF;
-	border: #000 1px solid;
 	color: #000;
 	display: block;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -77,11 +83,11 @@ body{/********** Overall page properties and width *********/
 
 hgroup{
 	background: #FFF;
-	background-image:url(images/logo.jpg);
+	background-image:url(images/braincancer-new-logo.png);
 	background-repeat:no-repeat;
-	background-size:100px;
-	background-position:50% 50%;
-	min-height: 150px;
+	background-size:211px;
+	background-position:5% 50%;
+	min-height: 100px;
 } 
 
 hgroup #logo{
@@ -98,42 +104,31 @@ hgroup a:hover{
 }
 
 hgroup #donate a{
-	border: #000 1px solid;
-	border-radius: 5px;
-	padding: 3px 14px;
-	margin-top:10px;
+	border-bottom: #2bb9e6 2px outset;
+	padding:10px 14px;
+	margin-top:32px;
 	text-decoration: none;
-	color: #000;
+	text-transform:uppercase;
+	font-size:1em;
+	color: #fff;
+	height:43px;
+	background-color:#2bb9e6;
 	margin-right: 20px;
 	float:right;
-	clear: right;
-}
+	}
 	
-hgroup #searchform{
-	border: #000 1px solid;
+hgroup #searchform input{
+	margin:32px 30px 0 0;
+	border:#3a9142 1px solid;
 	border-radius: 5px;
-	margin:20px 20px 0 20px;
-	margin:15px 20px 0 20px;
-	margin-top:5px;
-	padding-left:20px;
+	height:43px;
+	width:200px;
 	display: inline-block;
 	float:right;
-	text-align:left;
-	background-image:url("images/search1.png");
-	background-repeat:no-repeat;
-	background-position:0% 50%;
+	
 }
+	
 
-hgroup #searchform a{     /******* For our Donate button in the header ********/
-	border: #000 1px solid;
-	border-radius: 5px;
-	display: inline-block;
-	color: #000;
-	text-decoration: none;
-	margin-right: 20px;
-	float:right;
-	
-}
 
 hgroup .socialitems li{
 	border: #000 1px solid;
@@ -157,15 +152,15 @@ hgroup .socialitems a{
 #mainnav{
 	box-sizing: border-box;
 	clear:both;
-	border-bottom: 1px solid #000;
 }
 
 #mainnav li a, #mainnav li {
+	font-weight:500;
 	display: inline-block;
 	position: relative;
 	text-decoration:none;
 	text-align:left;
-	color:#000;
+	color:#373d4c;
 	margin:5px 2%;
 	font-size:1em;
 }
@@ -284,11 +279,33 @@ hgroup .socialitems a{
 
 /*************************footer***************************/
 #footer{
-	background: #FFF;
-	border-top: 1px solid #000;
 	clear: both;
-	min-height: 180px;
-	padding-left: 20px;
+}
+
+#footer #donate{
+	background-color:#28b9e6;
+	text-align:center;
+	height:120px;
+	color:#fff;
+	padding:10px 0;
+}
+
+#footer #donate #donatebutton{
+	color:#28b9e6;
+	text-align:center;
+	height:30px;
+	background-color:#fff;
+	padding:5px;
+	width:125px;
+	margin: 0 auto;
+}
+
+
+
+#footer #lowerfooter{
+	background-color:#373d4c;
+	color:#fff;
+	height:200px;
 }
 	
 #footer #login{ 
@@ -312,7 +329,7 @@ hgroup .socialitems a{
 }
 
 #footer .socialitems li{
-	border: #000 1px solid;
+	border: #fff 1px solid;
 	margin: 25px auto;
 	padding:2px 8px;
 	display: inline-block;
@@ -323,7 +340,7 @@ hgroup .socialitems a{
 
 #footer .socialitems a{
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 }
  #footer #tagline{
 	 display:inline-block;
@@ -344,7 +361,7 @@ hgroup .socialitems a{
 	position: relative;
 	text-decoration:none;
 	text-align:left;
-	color:#000;
+	color:#fff;
 	margin:0 .2%;
 	font-size:.85em;
 	font-weight:bold;
@@ -358,7 +375,7 @@ hgroup .socialitems a{
 
 	
 
-/*********************** Media query for 768 pixels and below ****************/
+/*********************** Media query for 768 pixels and below *****************************************************************************/
 
 @media  screen and (max-width: 768px){/***** All code changes go in these brackets *****/
 	
@@ -429,7 +446,7 @@ body{/********** page properties at 768px and below *********/
 	display:block;
 	margin: 0 10%
 }
-/*********************** Media query for 480 pixels and below ****************/
+/*********************** Media query for 480 pixels and below **************************************************************************/
 
 @media  screen and (max-width: 480px){/***** only the 480 code changes go in these brackets *****/
 
@@ -460,6 +477,7 @@ body{/********** page properties at 768px and below *********/
 }
 
 
+}
 
 
 }

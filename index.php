@@ -1,5 +1,5 @@
 <?php get_header();?>
-<!--sweet ass comment-->
+<!--index.php-->
 
 <div id="content">
     

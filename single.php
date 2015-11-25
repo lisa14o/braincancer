@@ -1,5 +1,6 @@
 <?php get_header();?>
-	<!-----------------This is for displaying a single post------------------->
+<!----------single.php------------>
+<!-----------------This is for displaying a single post------------------->
 
 <div id="content">
     

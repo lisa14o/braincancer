@@ -1,6 +1,8 @@
 <?php
 
 get_header();?>
+
+<!-----archive.php-------->
 	
 <div id="content">
     <h2><?php

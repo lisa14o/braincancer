@@ -1,6 +1,8 @@
 <?php
 
 get_header();?>
+
+<!---------search.php----------->
 	
 <div id="content">
     <h2><? _e( 'Search results for "' . get_search_query() . '"'); ?></h2>

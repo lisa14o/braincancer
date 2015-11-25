@@ -5,6 +5,8 @@ Template Name: Archives with Content
 
 get_header(); ?>
 
+<!---arc-cont.php--------->
+
 <div id="content">
 
     <?php if (have_posts()) : while (have_posts()) : the_post();?>
