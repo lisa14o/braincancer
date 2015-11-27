@@ -1,7 +1,7 @@
 <div id="footer">
 <div id="donate">
 <h3>DONATE TODAY</h3>
-<div id="donatebutton">LEARN MORE</div><!----End div donatebutton---->
+<div id="donatebutton"><a href="">LEARN MORE</a></div><!----End div donatebutton---->
 </div><!---End div donate---->
 <div id="lowerfooter">
 			<ul class="socialitems">
@@ -17,7 +17,7 @@
     <?php wp_nav_menu(array("menu" => "Footer")); ?>
     </div>
     
-    <p id="tagline">1 206-000-000 | 1234 5th Ave. Seattle WA 98123 | helpdesk@braincancer.org</p>
+    <p id="tagline"><cite>&copy; 2013-<?=date("Y");?> Brain Cancer Organization</p>
 
 </div><!----End lowerfooter---->
 </div><!-----End footer-------->

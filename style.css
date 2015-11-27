@@ -152,6 +152,7 @@ hgroup .socialitems a{
 #mainnav{
 	box-sizing: border-box;
 	clear:both;
+	text-align:center;
 }
 
 #mainnav li a, #mainnav li {
@@ -161,8 +162,9 @@ hgroup .socialitems a{
 	text-decoration:none;
 	text-align:left;
 	color:#373d4c;
-	margin:5px 2%;
+	margin:5px 3.5%;
 	font-size:1em;
+	
 }
 
 #mainnav li a:hover{
@@ -280,6 +282,7 @@ hgroup .socialitems a{
 /*************************footer***************************/
 #footer{
 	clear: both;
+	text-align:center;
 }
 
 #footer #donate{
@@ -290,9 +293,10 @@ hgroup .socialitems a{
 	padding:10px 0;
 }
 
-#footer #donate #donatebutton{
+#footer #donate #donatebutton a{
 	color:#28b9e6;
 	text-align:center;
+	text-decoration:none;
 	height:30px;
 	background-color:#fff;
 	padding:5px;
@@ -300,6 +304,11 @@ hgroup .socialitems a{
 	margin: 0 auto;
 }
 
+#footer #donate #donatebutton a:hover{
+	background-color:#ddd;
+}
+
+	
 
 
 #footer #lowerfooter{
@@ -325,7 +334,7 @@ hgroup .socialitems a{
 
 #footer .socialitems{
 	display:block;
-	margin: 0 40%
+	margin: 0 42%
 }
 
 #footer .socialitems li{
@@ -344,16 +353,14 @@ hgroup .socialitems a{
 }
  #footer #tagline{
 	 display:inline-block;
-	 text-align:center;
 	 font-size:.85em;
-	 margin: 0 20%
- }
+}
  
  /**************Footer Nav**************************************/
 
 #footernav{
 	clear:both;
-	margin: 0 9%;
+	text-align:center;
 }
 
 #footernav li a, #footernav li {
@@ -362,11 +369,16 @@ hgroup .socialitems a{
 	text-decoration:none;
 	text-align:left;
 	color:#fff;
-	margin:0 .2%;
-	font-size:.85em;
-	font-weight:bold;
+	padding:0 1%;
+	font-size:1em;
+	font-weight: 100;
+	border-right:#fff solid thin;
 }
 
+#footernav li a:last-child, #footernav li:last-child{
+	border-right:none;
+}
+	
 #footernav li a:hover{
 	color: #444;
 }
