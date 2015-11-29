@@ -7,7 +7,10 @@ Plugins used:
 	Akismet Plugin - http://akismet.com/
 		This plugin is used where ever comments are provided on the site
 		to maintain security by checking URLs and to prevent spam.
-		
+	
+	Breadcrumb NavXT - 	http://mtekk.us/code/breadcrumb-navxt/
+		dds a breadcrumb navigation showing the visitor's path to their current location.
+		For details on how to use this plugin visit Breadcrumb NavXT.
 
 	Meteor Slides - http://jleuze.com/plugins/meteor-slides/
 		This plugin provides the slider used on the home page.
@@ -153,26 +156,87 @@ hgroup .socialitems a{
 	box-sizing: border-box;
 	clear:both;
 	text-align:center;
-}
-
-#mainnav li a, #mainnav li {
-	font-weight:500;
-	display: inline-block;
-	position: relative;
-	text-decoration:none;
-	text-align:left;
-	color:#373d4c;
-	margin:5px 3.5%;
-	font-size:1em;
+	width:100%;
 	
 }
 
+#mainnav ul{
+	border-bottom: 1px solid #000;
+	
+}
+
+#mainnav li a, #mainnav li {
+	font-family:Open Sans;
+	font-weight:800;
+	display: inline-block;
+	position: relative;
+	text-decoration:none;
+	color:#000;
+	text-align:left;
+	font-size:1em;
+	padding:0 15px;
+	line-height: 2.5;
+}
+
 #mainnav li a:hover{
-	color: #444;
+	color: #fff;
+	background-color:#2ec086;
+}
+
+/*************Creates drop down menu************/
+#mainnav li ul{
+	display: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left:0px;
+	top: 100%;
+	z-index: 10;
+}
+
+#mainnav ul li:hover > ul {
+	border-left: 0;
+	display: block;
+	border-bottom:none;
+}
+
+#mainnav li ul li a {
+	background-color:#2ec086;
+	color:#fff;
+	
+	font-size: 1em;
+	line-height: 2.5;
+	padding: 0 15px;
+	width: 150px;
+}
+
+#mainnav li ul li a:hover {
+	background: #309b6f;
+	color: #fff;
+}
+
+/**********************************Breadcrumb Nav***********/
+
+nav.breadcrumb{ 
+	margin-left:20px;
+	
+}
+
+nav.breadcrumb a{ 
+	text-decoration: none;
+	text-align:left;
+	color: #000;
+	
+}
+
+nav.breadcrumb a:hover{ /************Breadcrumb nav*********/
+	color: #00F;
+	
 }
 
 
 /********************Main Content*********************/
+
 
 #content hr{
 	display:block;
@@ -314,7 +378,7 @@ hgroup .socialitems a{
 #footer #lowerfooter{
 	background-color:#373d4c;
 	color:#fff;
-	height:200px;
+	
 }
 	
 #footer #login{ 
@@ -420,6 +484,32 @@ body{/********** page properties at 768px and below *********/
 	list-style: none; 
 }
 
+/*   #mainnav ul li:last-child{
+	border-bottom: 1px solid #000;} */
+
+
+#footernav ul {
+	display: block;
+	clear:both;
+	text-align: center;
+	margin:5px 0 5px -40px;
+	list-style: none; 
+}
+
+#footernav ul li{
+	display: block;
+	clear:both;
+	text-align: center;
+	border-top: 1px solid #000;
+	padding:7px 50px;
+	list-style: none;
+	border-right:none; 
+}
+
+#footernav ul li:last-child{
+	border-bottom: 1px solid #000;
+}
+
 #content{/********** content properties at 768px and below *********/
 	display: block;
 	float: left;
@@ -451,7 +541,7 @@ body{/********** page properties at 768px and below *********/
 	background: #FFF;
 	border-top: 1px solid #000;
 	clear: both;
-	padding-left: 10px;
+	
 }
 
 #footer .socialitems{

@@ -33,4 +33,8 @@
    
     <div id="mainnav">
     <?php wp_nav_menu(array("menu" => "Main")); ?>
-    </div>
+    
+     </div>
+     <nav class="breadcrumb">
+    <?php if( function_exists( 'bcn_display' )){bcn_display();} ?></nav>
+    
