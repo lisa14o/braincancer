@@ -18,8 +18,14 @@ img {
 	width: 100%;
 }
 
-/*-------------------------------INTRO CHUNK-----------------------------*/
+p {
+	font-size: 1em;
+	line-height: 150%;
+	font-family: sans-serif;
+	padding-bottom: 2em;
+}
 
+/*---------HOME PAGE ONLY----------*/
 .mainCTAbanner {
 	width: 100%;
 	height: 400px;
@@ -31,7 +37,6 @@ h2.mainCTA {
 	font-family: sans-serif;
 	text-transform: uppercase;
 	color: #ffffff;
-	blur: 2px black;
 }
 
 .inspiringQuote {
@@ -43,7 +48,6 @@ h2.mainCTA {
 	width: 28%;
 	height: 290px;
 	margin-left: 2rem;
-	
 }
 
 .inspiringQuote p {
@@ -72,208 +76,10 @@ h2.mainContentHome {
 }
 
 p.firstParagraphHome {
-	font-family: lora italic;
+	font-family: lora;
 	font-size: 1.125em;
-	
 	text-align: center;
 }
-
-#mainContent {
-	max-width: 550px;
-	margin: 2.25rem auto;
-}
-
-h2.mainContent {
-	text-transform: uppercase;
-	font-size: 2.25em;
-	letter-spacing: 1px;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	text-align: center;
-	font-family: sans-serif;
-	color: #4D4D4D;
-}
-
-
-h3.mainContent {
-	text-transform: uppercase;
-	font-size: 1.5em;
-	letter-spacing: 1px;
-	padding-bottom: 1em;
-	text-align: left;
-	font-family: sans-serif;
-	color: #3A9142;
-}
-
-img.profilePic {
-	float: right;
-	padding-left: 1em;
-	padding-bottom: 1em;
-	display: inline;
-	width: 40%;
-}
-
-img.fullPic {
-	width: 100%;
-	height: 200px;
-	margin-bottom: 2rem;
-}
-
-p {
-	font-size: 1em;
-	line-height: 150%;
-	font-family: open sans light;
-	padding-bottom: 2em;
-}
-
-/*----------------------------END INTRO CHUNK----------------------------*/
-
-
-main.blog_Article {
-	width: 63%;
-	float: left;
-	background: #71A7A2;
-	border: 1px solid white;
-	padding: 1em;
-}
-
-p.excerpt {
-	font-size: 25px;
-	text-align: center;
-}
-
-
-/*------------------------------THREE ROWS-------------------------------*/
-
-
-#three_Rows {
-	width: 30%;
-	
-	float: right;
-}
-
-.row {
-	width: 90%;
-	
-	clear: both;
-	margin: 1em auto;
-	border: 1px white solid;
-	overflow: hidden;
-}
-
-/*--------------------------END FEATUED CONTENT--------------------------*/
-
-/*-----------------------------SUBMENU BOXES-----------------------------*/
-
-#submenu_Box {
-	width: 100%;
-	
-	overflow: hidden;
-	border: 1px solid white;
-}
-
-#submenu_Box h2 {
-	color: #0A1C28; 
-}
-
-main.right {
-	width: 50%;
-	float: right;
-	border: 1px white solid;
-	margin-right: 3em;
-	padding: .3em;
-}
-
-main.left {
-	width: 50%;
-	float: left;
-	border: 1px white solid;
-	margin-left: 3em;
-	padding: .3em;
-}
-
-aside.right {
-	width: 33%;
-	display: block;
-	float: right;
-	border: 1px white solid;
-	margin-right: 3em;
-	padding: .3em;
-}
-
-aside.left {
-	width: 33%;
-	display: block;
-	float: left;
-	border: 1px white solid;
-	margin-left: 3em;
-	padding: .3em;
-}
-
-aside img {
-	width: 100%;
-	height: 230px;
-	padding: 0;
-}
-
-/*--------------------------END SUBMENU BOXES----------------------------*/
-
-/*-----------------------------SUBMENU BOXES-----------------------------*/
-
-#blog_List {
-	width: 67%;
-	float: left;
-}
-
-.snippet {
-	width: 100%;
-	
-	display: block;
-	border: 1px white solid;
-	overflow: hidden;
-}
-
-main.snippet_Right {
-	width: 50%;
-	float: right;
-	border: 1px white solid;
-	margin: .7em;
-}
-
-aside.snippet_Left {
-	width: 40%;
-	display: block;
-	float: left;
-	border: 1px white solid;
-	margin: .7em;	
-}
-
-aside img {
-	height: 230px;
-}
-/*--------------------------END SUBMENU BOXES----------------------------*/
-
-/*------------------------------MAIN INFO--------------------------------*/
-
-#main_Info {
-	width: 96.57%;
-	
-	color: #F6EFD3;
-	clear: both;
-	overflow: hidden;
-	padding: 1em;
-}
-
-
-#main_Info img {
-	float: right;
-	width: 50%;
-	display: block;
-}
-
-/*----------------------------END MAIN INFO-----------------------------*/
-
-/*---------------------------------COL3---------------------------------*/
 
 #col3 {
 	width: 100%;
@@ -319,6 +125,189 @@ aside img {
 	text-align: center;
 	margin-bottom: 2rem;
 }
+/*---------END HOME PAGE----------*/
+
+/*----------MAIN CONTENT----------*/
+#mainContent {
+	max-width: 550px;
+	margin: 2.25rem auto;
+}
+
+h2.mainContent {
+	text-transform: uppercase;
+	font-size: 2.25em;
+	letter-spacing: 1px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+	font-family: sans-serif;
+	color: #4D4D4D;
+}
+
+h3.mainContent {
+	text-transform: uppercase;
+	font-size: 1.5em;
+	letter-spacing: 1px;
+	padding-bottom: 1em;
+	text-align: left;
+	font-family: sans-serif;
+	color: #3A9142;
+}
+
+h3.gateMainContent {
+	text-transform: uppercase;
+	font-size: 1.5em;
+	letter-spacing: 1px;
+	padding-bottom: 1em;
+	text-align: center;
+	font-family: sans-serif;
+	color: #3A9142;
+}
+
+/*------DESTINATION PAGE ONLY-----*/
+
+img.profilePic {
+	float: right;
+	padding-left: 1em;
+	padding-bottom: 1em;
+	display: inline;
+	width: 40%;
+}
+
+img.fullPic {
+	width: 100%;
+	height: 200px;
+	margin-bottom: 2rem;
+}
+/*----END DESTINATION PAGE ONLY---*/
+
+/*---------BLOG PAGE ONLY---------*/
+main.blog_Article {
+	width: 63%;
+	float: left;
+	background: #71A7A2;
+	border: 1px solid white;
+	padding: 1em;
+}
+
+p.excerpt {
+	font-size: 25px;
+	text-align: center;
+}
+
+#three_Rows {
+	width: 30%;
+	float: right;
+}
+
+.row {
+	width: 90%;
+	clear: both;
+	margin: 1em auto;
+	border: 1px white solid;
+	overflow: hidden;
+}
+/*---------END BLOG PAGE----------*/
+
+/*-------GATEWAY PAGE ONLY--------*/
+.med_Board {
+	width: 95%;
+	margin: 2em auto;
+	display: block;
+	border: 1px black solid;
+}
+
+img.med_Board_Bio {
+	width: 29%;
+	margin-bottom: 2em;
+	margin-right: 2em;
+}
+
+.dir_Board {
+	width: 95%;
+	margin: 2em auto;
+	display: block;
+	border: 1px black solid;
+}
+
+img.dir_Board_Bio {
+	width: 21%;
+	margin-bottom: 2em;
+	margin-right: 2em;
+}
+/*--------END GATEWAY PAGE--------*/
+
+/*--------BIO PAGE ONLY---------*/
+img.team_Photo {
+	height: 17.5rem;
+	width: 49.667rem;
+	margin: 2rem auto;
+	display: block;
+}
+
+h2.name {
+	font-size: 2.441em;
+	margin: 2.5rem auto 3.145rem auto;
+	text-align: center;
+}
+
+p.team {
+	width: 39.336rem;
+	max-width: 84.145%;
+	margin: 1rem auto;
+}
+/*------END BIO PAGE ONLY-------*/
+
+/*---------SUBMENU BOXES----------*/
+#submenu_Box {
+	width: 100%;
+	overflow: hidden;
+	border: 1px solid white;
+}
+
+#submenu_Box h2 {
+	color: #0A1C28; 
+}
+
+main.right {
+	width: 50%;
+	float: right;
+	border: 1px white solid;
+	margin-right: 3em;
+	padding: .3em;
+}
+
+main.left {
+	width: 50%;
+	float: left;
+	border: 1px white solid;
+	margin-left: 3em;
+	padding: .3em;
+}
+
+aside.right {
+	width: 33%;
+	display: block;
+	float: right;
+	border: 1px white solid;
+	margin-right: 3em;
+	padding: .3em;
+}
+
+aside.left {
+	width: 33%;
+	display: block;
+	float: left;
+	border: 1px white solid;
+	margin-left: 3em;
+	padding: .3em;
+}
+
+aside img {
+	width: 100%;
+	padding: 0;
+}
+/*--------END SUBMENU BOXES-------*/
 
 .ctaButton {
 	width: 162px;
@@ -333,44 +322,16 @@ aside img {
 	margin-bottom: 2rem;
 }
 
-/*-------------------------------END COL3--------------------------------*/
 
-/*--------------------------------FOOTER---------------------------------*/
 
-footer {
-	margin-top: 50px;
-	background: #42848D;
-	height: 200px;
-}
-
-/*-------------------------------END FOOTER-------------------------------*/
-
-/*-------------------------------RESPONSIVE-------------------------------*/
+/*----------------RESPONSIVE 768-------------------*/
 
 @media screen and (max-width: 768px) {
 
 	#wrapper {
-		width: 93.75%;
-		
+		width: 84.145%;
 		margin: 0 auto;
-	}
-
-	#description_Banner {
-		width: 96.8%;
-		height: auto;
-		margin: 0;
-		padding: 1em;
-	}
-
-	#description_Banner h1 {
-		text-align: center;
-	}
-
-	#description_Banner p  {
-		text-align: center;
-		font-size: 1.3em;
-		padding: 0;
-		margin: 0;
+		border: 1px blue solid;
 	}
 
 	p {
@@ -379,7 +340,7 @@ footer {
 		font-size: 1.4em;
 	}
 
-	/*-----------------------------SUBMENU BOXES-----------------------------*/
+	/*---------SUBMENU BOXES----------*/
 
 	#submenu_Box {
 		margin-top: 0;
@@ -419,16 +380,9 @@ footer {
 		border: none;
 		border: 1px solid white;	
 	}
-	
+	/*---------SUBMENU BOXES----------*/
 
-	
-	
-
-
-/*--------------------------END SUBMENU BOXES----------------------------*/
-
-/*---------------------------------COL3---------------------------------*/
-
+	/*------------COL3----------------*/
 	#col3 {
 		width: 100%;
 		overflow: hidden;
@@ -478,12 +432,9 @@ footer {
 		max-height: 44px;
 		margin: 2rem auto;
 	}
+	/*-----------END COL3-----------*/
 
-
-/*-------------------------------END COL3--------------------------------*/
-
-/*-------------------------------INTRO CHUNK-----------------------------*/
-
+	/*---------HOME PAGE ONLY-------*/
 	.mainCTAbanner {
 		width: 100%;
 		height: 300px;
@@ -511,13 +462,6 @@ footer {
 	.inspiringQuote p {
 		width: 85%;
 		margin: 0 auto;
-
-	}
-
-	#mainContent {
-		width: 26.56rem;
-		float: none;
-		margin: 0 auto;
 	}
 
 	#mainContentHome {
@@ -535,7 +479,6 @@ footer {
 		text-align: center;
 		font-family: sans-serif;
 		color: black;
-		
 	}
 
 	p.firstParagraphHome {
@@ -543,13 +486,18 @@ footer {
 		font-size: 1.125em;
 		text-align: center;
 	}
+	/*-------END HOME PAGE ONLY-----*/
+
+	/*----------MAIN CONTENT--------*/
+	#mainContent {
+		width: 26.56rem;
+		float: none;
+		margin: 0 auto;
+	}
+	/*--------END MAIN CONTENT------*/
 
 
-/*----------------------------END INTRO CHUNK----------------------------*/
-
-
-/*-----------------------------BLOG ARTICLE------------------------------*/
-
+	/*----------BLOG ARTICLE--------*/
 	main.blog_Article {
 		width: 100%;
 		float: left;
@@ -564,26 +512,6 @@ footer {
 		font-size: 25px;
 		text-align: center;
 		padding: .5em;
-	}
-
-/*---------------------------END BLOG ARTICLE----------------------------*/
-
-/*------------------------------THREE ROWS-------------------------------*/
-
-	#three_Rows {
-		width: 70%;
-		background: #8D95A6;
-		margin: 0 auto;
-		float: none;
-	}
-
-	.row {
-		width: 100%;
-		background: #8D95A6;
-		clear: both;
-		margin: 20px auto;
-		border: 1px white solid;
-		overflow: hidden;
 	}
 
 	#social {
@@ -601,65 +529,95 @@ footer {
 		display: block;
 		float: left;
 	}
+	/*--------END BLOG ARTICLE------*/
 
-/*--------------------------END FEATUED CONTENT--------------------------*/
-
-/*------------------------------MAIN INFO--------------------------------*/
-
-	#main_Info {
-		width: 96.57%;
+	/*----------THREE ROWS----------*/
+	#three_Rows {
+		width: 70%;
 		background: #8D95A6;
-		color: #F6EFD3;
-		clear: both;
-		overflow: hidden;
-		padding: .7em;
-	}
-
-
-	#main_Info img {
+		margin: 0 auto;
 		float: none;
-		width: 98%;
-		margin: .3em auto;
 	}
 
-/*----------------------------END MAIN INFO-----------------------------*/
-
-	#blog_List {
+	.row {
 		width: 100%;
-		float: left;
-	}
-
-	.snippet {
-		width: 100%;
-		background: #71A7A2;;
-		display: block;
+		background: #8D95A6;
+		clear: both;
+		margin: 20px auto;
 		border: 1px white solid;
 		overflow: hidden;
 	}
 
-	main.snippet_Right {
-		width: 50%;
-		float: right;
-		border: 1px white solid;
-		margin: .7em;
-	}
-
-	aside.snippet_Left {
-		width: 40%;
+	/*--------GATEWAY PAGE---------*/
+	.med_Board {
+		width: 95%;
+		margin: 2em auto;
 		display: block;
-		float: left;
-		border: 1px white solid;
-		margin: .7em;	
+		border: 1px black solid;
 	}
 
-	aside img {
-		height: 230px;
+	img.med_Board_Bio {
+		width: 44%;
+		margin-bottom: 2em;
+		margin-right: 2em;
 	}
+	
+	.dir_Board {
+		width: 95%;
+		margin: 2em auto;
+		display: block;
+		border: 1px black solid;
+	}
+
+	img.dir_Board_Bio {
+		width: 44%;
+		margin-bottom: 2em;
+		margin-right: 2em;
+	}
+	/*-------END MED BOARD----------*/
+	
+
+	/*----------BIO PAGE------------*/
+	img.team_Photo {
+		height: 30.3125rem;
+		width: 100%;
+		margin-bottom: 1.5625rem;
+	}
+
+	h2.name {
+		font-size: 2.441em;
+		margin: 2.5rem auto 3.145rem auto;
+		text-align: center;
+		padding-bottom: 3.1875rem;
+	}
+	/*--------END TEAM BIO----------*/
 
 }
 
 
+/*----------------RESPONSIVE 480-------------------*/
 
+@media screen and (max-width: 480px) {
+	#wrapper {
+		border: 1px red solid;
+		width: 82.541%;
+	}
+
+	/*-----------BIO PAGE------------*/
+	img.team_Photo {
+		height: 30.3125rem;
+		width: 100%;
+		margin-bottom: 1.5625rem;
+	}
+
+	h2.name {
+		font-size: 2.441em;
+		margin: 2.5rem auto 3.145rem auto;
+		text-align: center;
+		padding-bottom: 3.1875rem;
+	}
+	/*---------END TEAM BIO------------*/
+}
 
 
 
