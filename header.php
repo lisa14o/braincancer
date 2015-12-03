@@ -15,7 +15,8 @@
 
 	<hgroup>
             
-                       
+            <div class="showmobile">
+            <a id="menubutton" href=""><img src="http://localhost:8080/wp-content/uploads/2015/12/menubutton.png" width="58" height="41" alt="Menu"></a> </div>           
             
             <div class="hidemobile">
             <form role="search" method="get" id="searchform" class="searchform" action="<?php bloginfo('home'); ?>/"><!-- our search button-->
@@ -27,6 +28,9 @@
 
             <div id="donate"><a href=""><b> Donate </b> </div></a><!-- our donate button-->
             </div><!------Close hidemobile------>
+            
+            
+            
             <div id="menu-social" class="menu-social"></div>
     
     </hgroup>
