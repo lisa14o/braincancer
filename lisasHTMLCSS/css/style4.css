@@ -88,43 +88,48 @@ p.firstParagraphHome {
 	margin-bottom: 1.5em;
 }
 
-.col {
+.video {
 	width: 26%;
 	float: left;
 	margin: 2rem;
 	display: block;
 }
 
-.col_Middle {
+.get_Social {
+	width: 26%;
+	float: left;
+	margin: 2rem;
+	display: block;
+}
+
+.research {
+	width: 26%;
+	float: left;
+	padding-left: 2rem;
+	padding-right: 2rem;
 	margin-top: 2rem;
-	margin-bottom: 2rem;
-	width: 26%;
-	float: left;
-	margin: 2rem;
 	display: block;
+	
 }
 
-.col_Middle img {
+p.middle {
+	border-right: 1px #4D4D4D solid;
+	border-left: 1px #4D4D4D solid;
+	
+}
+
+img.col_Img {
 	margin-bottom: 2rem;
 }
 
-.col img {
-	margin-bottom: 2rem;
-}
-
-.col_Middle h3 {
+h3.col_Title {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	text-align: center;
 	margin-bottom: 2rem;
+	color: #4D4D4D;
 }
 
-.col h3 {
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	text-align: center;
-	margin-bottom: 2rem;
-}
 /*---------END HOME PAGE----------*/
 
 /*----------MAIN CONTENT----------*/
@@ -178,6 +183,16 @@ img.fullPic {
 	width: 100%;
 	height: 200px;
 	margin-bottom: 2rem;
+}
+
+p.first_Paragraph_Dest {
+	float: left;
+	width: 50%;	
+}
+
+p.second_Paragraph_Dest {
+	clear: both;
+	width: 100%;	
 }
 /*----END DESTINATION PAGE ONLY---*/
 
@@ -339,6 +354,33 @@ aside img {
 		line-height: 2em;
 		font-size: 1.4em;
 	}
+	/*------DESTINATION PAGE ONLY-----*/
+
+	img.profilePic {
+		float: none;
+		padding-left: 0;
+		padding-bottom: 0;
+		margin: 2em auto;
+		display: block;
+		width: 75%;
+	}
+
+	img.fullPic {
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+
+	p.first_Paragraph_Dest {
+		float: none;
+		width: 100%;
+		padding-bottom: 0;	
+	}
+
+	p.second_Paragraph_Dest {
+		clear: both;
+		width: 100%;	
+	}
+	/*----END DESTINATION PAGE ONLY---*/
 
 	/*---------SUBMENU BOXES----------*/
 
@@ -383,48 +425,58 @@ aside img {
 	/*---------SUBMENU BOXES----------*/
 
 	/*------------COL3----------------*/
-	#col3 {
+	#col3 p {
+		width: 90%;
+		text-align: center;
+		padding: 0;
+		margin: 0 auto;
+	}
+
+	.video {
 		width: 100%;
-		overflow: hidden;
-		border: 1px solid white;
-		margin-bottom: 1.5em;
-	}
-
-	.col {
-		width: 30.635rem;
 		float: none;
 		margin: 2rem auto;
 		display: block;
 	}
 
-	.col_Middle {
+	img.vid_Img {
+		width: 80%;
 		margin: 2rem auto;
-		width: 30.625rem;
+		display: block;
+	}
+
+	.get_Social {
+		width: 100%;
+		float: none;
+		margin: 2rem auto;
+		display: block;
+	}
+
+	.research {
+		padding: 0;
+		margin: 0;
+		width: 100%;
 		float: none;
 		display: block;
 	}
 
-	.col_Middle img {
+	img.col_Img {
+		width: 40.9735em;
+		padding: 0;
 		margin-bottom: 2rem;
 	}
 
-	.col img {
-		margin-bottom: 2rem;
-	}
-
-	.col_Middle h3 {
+	h3.col_Title {
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		text-align: center;
 		margin-bottom: 2rem;
 	}
 
-	.col h3 {
-		text-transform: uppercase;
-		letter-spacing: 1px;
-		text-align: center;
-		margin-bottom: 2rem;
-	}
+	p.middle {
+		border-right: none;
+		border-left: none;
+		}
 
 	.ctaButton {
 		width: 162px;
@@ -435,20 +487,6 @@ aside img {
 	/*-----------END COL3-----------*/
 
 	/*---------HOME PAGE ONLY-------*/
-	.mainCTAbanner {
-		width: 100%;
-		height: 300px;
-		background: #ccc;
-		margin-bottom: 0;
-	}
-
-	h2.mainCTA {
-		font-family: sans-serif;
-		text-transform: uppercase;
-		color: #ffffff;
-		blur: 2px black;
-	}
-
 	.inspiringQuote {
 		text-align: center;
 		float: none;
@@ -469,22 +507,6 @@ aside img {
 		float: none;
 		margin: 2.25rem auto;
 		padding: 0;
-	}
-
-	h2.mainContentHome {
-		text-transform: uppercase;
-		font-size: 2.25em;
-		letter-spacing: 1px;
-		margin-bottom: 1rem;
-		text-align: center;
-		font-family: sans-serif;
-		color: black;
-	}
-
-	p.firstParagraphHome {
-		font-family: lora italic;
-		font-size: 1.125em;
-		text-align: center;
 	}
 	/*-------END HOME PAGE ONLY-----*/
 
@@ -617,6 +639,73 @@ aside img {
 		padding-bottom: 3.1875rem;
 	}
 	/*---------END TEAM BIO------------*/
+
+	/*------DESTINATION PAGE ONLY-----*/
+
+	img.profilePic {
+		padding-left: 0;
+		padding-bottom: 0;
+		margin: 2em auto;
+		width: 75%;
+		display: block;
+	}
+
+	img.fullPic {
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+
+	p.first_Paragraph_Dest {
+		float: none;
+		width: 100%;	
+	}
+
+	p.second_Paragraph_Dest {
+		clear: both;
+		width: 100%;	
+	}
+	/*----END DESTINATION PAGE ONLY---*/
+
+	/*------------COL3----------------*/
+	#col3 p {
+		width: 85%;
+	}
+
+	img.vid_Img {
+		width: 100%;
+	}
+
+	img.col_Img {
+		margin-bottom: 2em;
+
+	}
+
+	/*-----------END COL3-----------*/
+
+	/*---------HOME PAGE ONLY-------*/
+	.mainCTAbanner {
+		width: 100%;
+		height: 300px;
+		background: #ccc;
+		margin-bottom: 0;
+	}
+
+	.inspiringQuote p {
+		width: 85%;
+		margin: 0 auto;
+	}
+
+	#mainContentHome {
+		width: 100%;
+	}
+
+	p.firstParagraphHome {
+		width: 17em;
+		margin: 0 auto;
+		font-size: 1.125em;
+		
+	}
+	/*-------END HOME PAGE ONLY-----*/
 }
 
 
