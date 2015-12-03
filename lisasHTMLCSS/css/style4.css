@@ -197,30 +197,99 @@ p.second_Paragraph_Dest {
 /*----END DESTINATION PAGE ONLY---*/
 
 /*---------BLOG PAGE ONLY---------*/
-main.blog_Article {
-	width: 63%;
+.blog {
+	width: 62%;
 	float: left;
-	background: #71A7A2;
-	border: 1px solid white;
-	padding: 1em;
 }
 
 p.excerpt {
-	font-size: 25px;
+	font-size: 1.375em;
 	text-align: center;
+	font-family:'Lora', italic;
+	font-weight: 400;
+	color: #666;
 }
 
-#three_Rows {
-	width: 30%;
+h2.date {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 1.1em;
+	color: #27b9e7;
+	text-align: center;
+	padding-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+h2.title {
+	font-family: 'Open Sans';
+	font-size: 2.441em;
+	font-weight: 300;
+	color: #4D4D4D;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.blog p {
+	font-size: 1em;
+	line-height: 1.3em;
+	font-family: 'Open Sans';
+	font-weight: 300;
+}
+
+p.read_More {
+	font-family: 'Open Sans';
+	font-size: 1em;
+	font-weight: 600;
+	color: #2EC086;
+	display: inline;
+
+}
+
+blockquote.pullquote {
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-size: 1.563em;
+	text-transform: uppercase;
+	padding: .6875em;
+	color: #fff;
+	background-color: #27b9e7;
+	margin: 0 auto 1.75rem auto;
+}
+
+.related_Article {
+	width: 32%;
 	float: right;
 }
 
+.related_Article p {
+	padding-bottom: 0;
+	font-size: 1em;
+	line-height: 1.3em;
+	font-family: 'Open Sans';
+	font-weight: 300;
+}
+
+h2.related {
+	font-family: 'Open Sans';
+	font-size: 1.5em;
+	color: #2EC086;
+	margin-bottom: 1rem;
+}
+
 .row {
-	width: 90%;
+	width: 100%;
 	clear: both;
-	margin: 1em auto;
+	margin-bottom: 3.75rem; ;
 	border: 1px white solid;
 	overflow: hidden;
+}
+
+.row h5 {
+	margin-bottom: 1rem;
+}
+
+.row img {
+	margin-bottom: 1.875rem;
 }
 /*---------END BLOG PAGE----------*/
 
@@ -230,12 +299,29 @@ p.excerpt {
 	margin: 2em auto;
 	display: block;
 	border: 1px black solid;
+	overflow: hidden;
 }
 
-img.med_Board_Bio {
+.med_Board_Bio {
 	width: 29%;
+	display: block;
 	margin-bottom: 2em;
 	margin-right: 2em;
+	float: left;
+}
+
+.med_Board_Bio img {
+	width: 100%;
+	margin-bottom: 2em;
+	
+}
+
+h3.features {
+	font-size: 1.3125em;
+	padding-bottom: 2rem;
+	text-transform: uppercase;
+	color: #4D4D4D;
+	text-align: center;
 }
 
 .dir_Board {
@@ -243,12 +329,22 @@ img.med_Board_Bio {
 	margin: 2em auto;
 	display: block;
 	border: 1px black solid;
+	overflow: hidden;
 }
 
-img.dir_Board_Bio {
+.dir_Board_Bio {
 	width: 21%;
 	margin-bottom: 2em;
 	margin-right: 2em;
+	display: block;
+	margin-bottom: 2em;
+	margin-right: 2em;
+	float: left;
+}
+
+.dir_Board_Bio img {
+	width: 100%;
+	margin-bottom: 2em;
 }
 /*--------END GATEWAY PAGE--------*/
 
@@ -262,8 +358,10 @@ img.team_Photo {
 
 h2.name {
 	font-size: 2.441em;
-	margin: 2.5rem auto 3.145rem auto;
+	margin: 2.5rem auto 3.125rem;
 	text-align: center;
+	font-family: 'Open Sans', light;
+	color: #4D4D4D;
 }
 
 p.team {
@@ -331,10 +429,7 @@ aside img {
 	background-color: #28B9E6;
 	text-align: center;
 	color: #ffffff;
-	margin-top: 2rem;
-	margin-right: 1rem;
-	margin-left: 3rem;
-	margin-bottom: 2rem;
+	margin: 2rem auto;
 }
 
 
@@ -519,87 +614,47 @@ aside img {
 	/*--------END MAIN CONTENT------*/
 
 
-	/*----------BLOG ARTICLE--------*/
-	main.blog_Article {
+	/*---------BLOG PAGE ONLY---------*/
+	.blog {
 		width: 100%;
-		float: left;
-		background: #71A7A2;
-	}
-
-	main.blog_Article h4 {
-		text-align: center;
-	}
-
-	p.excerpt {
-		font-size: 25px;
-		text-align: center;
-		padding: .5em;
-	}
-
-	#social {
-		width: 100%;
-		height: 150px;
-		background: #71A7A2;
-		margin-top: 0;
-	}
-
-	.social_Box {
-		width: 8%;
-		height: 50px;
-		background: white;
-		margin: 40px 85px 40px 85px;
-		display: block;
-		float: left;
-	}
-	/*--------END BLOG ARTICLE------*/
-
-	/*----------THREE ROWS----------*/
-	#three_Rows {
-		width: 70%;
-		background: #8D95A6;
-		margin: 0 auto;
 		float: none;
+	}
+
+	h2.date {
+		font-size: 1.125em;
+		padding-top: 1rem;
+		margin-bottom: 1.875rem;
+	}
+
+	h2.title {
+		margin-bottom: 3rem;
+	}
+
+	.blog p {
+		margin-bottom: 0;
+	}
+
+	p.read_More {
+		font-family: 'Open Sans';
+		font-size: 1em;
+		font-weight: 600;
+		color: #2EC086;
+		display: inline;
+
+	}
+
+	.related_Article {
+		width: 55.555%;
+		float: none;
+		margin: 2rem auto;
 	}
 
 	.row {
 		width: 100%;
-		background: #8D95A6;
-		clear: both;
-		margin: 20px auto;
-		border: 1px white solid;
-		overflow: hidden;
+		margin-bottom: 4.75rem; 
 	}
+	/*---------END BLOG PAGE----------*/
 
-	/*--------GATEWAY PAGE---------*/
-	.med_Board {
-		width: 95%;
-		margin: 2em auto;
-		display: block;
-		border: 1px black solid;
-	}
-
-	img.med_Board_Bio {
-		width: 44%;
-		margin-bottom: 2em;
-		margin-right: 2em;
-	}
-	
-	.dir_Board {
-		width: 95%;
-		margin: 2em auto;
-		display: block;
-		border: 1px black solid;
-	}
-
-	img.dir_Board_Bio {
-		width: 44%;
-		margin-bottom: 2em;
-		margin-right: 2em;
-	}
-	/*-------END MED BOARD----------*/
-	
-
-	/*----------BIO PAGE------------*/
 	img.team_Photo {
 		height: 30.3125rem;
 		width: 100%;
@@ -612,7 +667,51 @@ aside img {
 		text-align: center;
 		padding-bottom: 3.1875rem;
 	}
+
+	p.team {
+		width: 39.336rem;
+		max-width: 84.145%;
+		margin: 1rem auto;
+	}
+	
 	/*--------END TEAM BIO----------*/
+
+	/*-------GATEWAY PAGE ONLY--------*/
+	.med_Board {
+		width: 100%;
+	}
+
+	.med_Board_Bio {
+		width: 43%;
+		display: block;
+		margin-bottom: 2em;
+		margin-right: 2em;
+		float: left;
+	}
+
+	.dir_Board {
+		width: 100%;
+	}
+
+	.dir_Board_Bio {
+		width: 43%;
+	}
+	/*--------END GATEWAY PAGE--------*/
+
+	/*--------BIO PAGE ONLY---------*/
+	img.team_Photo {
+		height: 17.5rem;
+		width: 49.667rem;
+		margin: 2rem auto;
+		display: block;
+	}
+
+	p.team {
+		width: 39.336rem;
+		max-width: 84.145%;
+		margin: 1rem auto;
+	}
+	/*------END BIO PAGE ONLY-------*/
 
 }
 
@@ -625,20 +724,14 @@ aside img {
 		width: 82.541%;
 	}
 
-	/*-----------BIO PAGE------------*/
-	img.team_Photo {
-		height: 30.3125rem;
-		width: 100%;
-		margin-bottom: 1.5625rem;
+	p {
+		font-size: 1em;
+		line-height: 150%;
+		font-family: sans-serif;
+		padding-bottom: 2em;
+		padding-left: 0;
+		padding-right: 0;
 	}
-
-	h2.name {
-		font-size: 2.441em;
-		margin: 2.5rem auto 3.145rem auto;
-		text-align: center;
-		padding-bottom: 3.1875rem;
-	}
-	/*---------END TEAM BIO------------*/
 
 	/*------DESTINATION PAGE ONLY-----*/
 
@@ -706,6 +799,67 @@ aside img {
 		
 	}
 	/*-------END HOME PAGE ONLY-----*/
+	/*---------SUBMENU BOXES----------*/
+	main.right {
+		width: 100%;
+		border: 1px solid white;
+		padding: 0;
+	}
+
+	aside.left {
+		width: 100%;
+		border: 1px solid white;
+		padding: 0;	
+	}
+	/*--------END SUBMENU BOXES-------*/
+
+	/*--------GATEWAY PAGE---------*/
+	.med_Board {
+		width: 100%;
+	}
+	
+	.dir_Board {
+		width: 100%;
+	}
+
+	img.dir_Board_Bio {
+		width: 100%;
+		margin-bottom: 2em;
+		margin-right: 2em;
+	}
+
+	.med_Board_Bio {
+		width: 100%;
+		margin-bottom: 0;
+		margin-right: 0;
+	}
+
+	.med_Board_Bio img {
+		width: 100%;
+		margin-bottom: 2em;
+	}
+
+	.dir_Board_Bio {
+		width: 100%;
+		margin-bottom: 0;
+		margin-right: 0;
+	}
+
+	.dir_Board_Bio img {
+		width: 100%;
+		margin-bottom: 2em;
+	}
+		/*-------END MED BOARD----------*/
+		/*---------BLOG PAGE ONLY---------*/
+	.blog p {
+		margin-bottom: 0;
+	}
+
+	.related_Article {
+		width: 66.11%;
+	}
+
+	/*---------END BLOG PAGE----------*/
 }
 
 
